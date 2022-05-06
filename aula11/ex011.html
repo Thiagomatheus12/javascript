@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Países</title>
+</head>
+<body>
+    <h1>Verificando sua nacionalidade</h1>
+    <label for="">Voçê mora no Brasil? </label>
+    <input type="text" name="nacionalidade" id="nacionalidade">
+    <input type="button" value="verificar" onclick="calcular()">
+    <div id="pais"></div>
+    <script>
+        function calcular() {
+            var nac = document.getElementById('nacionalidade')
+            var res = document.querySelector('#pais')
+            var pais = (nac.value)
+
+            if (pais == 'sim') {
+                res.innerHTML = `<p> Voçê é Brasileiro! </p>`
+            }
+            else {
+                res.innerHTML = `<p> Voçê é Estrangeiro! </p>`
+            }
+        }
+
+    </script>
+</body>
+</html>
