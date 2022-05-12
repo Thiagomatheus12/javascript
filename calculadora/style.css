@@ -1,0 +1,23 @@
+body {
+    background: rgb(202, 199, 199);
+}
+header {
+    text-align: center;
+}
+
+p {
+    font-size: 1.3em;
+    text-align: center;
+}
+div {
+    background: white;
+    width: 400px;
+    margin: 0 auto;
+}
+
+input {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+}
+
