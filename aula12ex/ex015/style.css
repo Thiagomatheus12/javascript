@@ -22,3 +22,12 @@ footer {
     text-align: center;
     font-style: italic;
 }
+
+input, button {
+    font-size: 0.7em;
+    padding: 3px;
+    border-radius: 7px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
